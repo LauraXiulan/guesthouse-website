@@ -203,7 +203,9 @@ h2 {
 	text-align: center;
 }
 
-/* Carousel base class */
+/* End Navbar */
+
+/*Carousel*/
 .carousel {
   height: auto;
   width: 70%;
@@ -211,6 +213,7 @@ h2 {
   margin-bottom: 60px;
   position: relative;
 }
+
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
@@ -239,3 +242,232 @@ h2 {
 .carousel-indicators {
     bottom: 20px;
 }
+
+/*Amenities*/
+
+@media (min-width: 768px)
+.content-head {
+    padding-top: 2em;
+    padding-right: 2em;
+    padding-bottom: 0;
+    padding-left: 2em;
+    padding-bottom: 0;
+}
+
+@media (min-width: 1025px)
+.body-wrap {
+    border-top: 3px solid black;
+    margin-top: 0;
+}
+
+.content-head {
+    text-align: center;
+}
+
+.content-head {
+    box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 1em;
+}
+
+@media (min-width: 768px)
+.sectionTitle {
+    font-size: 1.75em;
+}
+
+@media (min-width: 1025px)
+.sectionTitle {
+    font-size: 2.2em;
+}
+
+@media (min-width: 768px)
+.sectionTitle {
+    font-size: 2em;
+}
+
+.sectionTitle {
+    font-family: "Dosis","Helvetica Neue","HelveticaNeue",Helvetica,Arial,sans-serif;
+    font-size: 1.8em;
+    line-height: 1.1;
+    margin-bottom: .5em;
+    max-width: 24em;
+    margin: 0 auto;
+}
+
+@media (min-width: 1025px)
+h1, .header-level1 {
+    font-size: 2.6em;
+}
+
+@media (min-width: 768px)
+h1, .header-level1 {
+    font-size: 2.4em;
+}
+
+h1, .header-level1 {
+    font-size: 2.2em;
+    line-height: 1.2;
+    margin-bottom: .5em;
+}
+
+h1, h2, h3, .header-level1, .header-level2, .header-level3, .header-level4, .header-level5 {
+    font-family: "Dosis","Helvetica Neue","HelveticaNeue",Helvetica,Arial,sans-serif;
+}
+
+@media (min-width: 768px)
+.pg-facilities .content-body-inner {
+    padding-right: 1em;
+}
+
+.pg-facilities .content-body-inner {
+    max-width: 1360px;
+}
+
+@media (min-width: 768px)
+.content-body-inner {
+    padding-top: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    padding-left: 2em;
+}
+
+.content-body-inner {
+    box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 1em;
+}
+
+.pg-facilities .facility-group {
+    margin-bottom: 3em;
+}
+
+@media (min-width: 768px)
+.facility-group {
+    width: 32.5%;
+}
+
+@media (min-width: 520px)
+.facility-group {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+    box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.pg-facilities .facility-category {
+    margin-right: 1.5em;
+}
+
+@media (min-width: 1025px)
+h4, .header-level4 {
+    font-size: 1.4em;
+}
+
+@media (min-width: 768px)
+h4, .header-level4 {
+    font-size: 1.3em;
+}
+
+h4, .header-level4 {
+    font-size: 1.2em;
+    line-height: 1.1;
+    margin-bottom: .5em;
+}
+
+.pg-facilities .icon-facility {
+    font-size: 14px;
+    position: relative;
+    top: -3px;
+}
+
+.pg-facilities .icon-facility {
+    display: inline-block;
+    font-size: 18px;
+    margin-right: .5em;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'facilities-category-icons';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.pg-facilities .facility-list {
+    margin-right: 2em;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+.pg-facilities li.facility:last-child {
+    border-bottom: 1px solid #eee;
+}
+
+.pg-facilities li.facility {
+    margin-left: 37px;
+}
+
+.pg-facilities li.facility {
+    margin-left: 27px;
+    box-sizing: border-box;
+    border-top: 1px solid #eee;
+    line-height: 1.1;
+    padding: .5em 0;
+}
+
+.clearfix {
+    overflow: hidden;
+    display: inline-block;
+    display: block;
+}
+
+.body-wrap, .footer {
+    background-color: white;
+}
+
+.body-wrap {
+    max-width: 1025px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 160px;
+}
+
+@media (min-width: 1025px)
+.backstretch {
+    display: block;
+    background-color: #f4f4f4;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -999998;
+    position: fixed;
+}
+
+
+
+
