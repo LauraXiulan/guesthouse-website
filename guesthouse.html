@@ -69,28 +69,26 @@
 
   <!--Navbar-->      
   <nav class="navbar navbar-inverse">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#">Ola Onda</a>
-      </div>
-      <div id="navbar" class="collapse navbar-collapse">
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="#home">Home</a></li>
-          <li><a class="buttons" href="#guesthouse">Guesthouse</a></li>
-          <li><a class="buttons" href="#location">Location</a></li>
-          <li><a class="buttons" href="#reviews">Reviews</a></li>
-          <li><a class="buttons" href="#reservation">Contact</a></li>
-        </ul>
-      </div>
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Ola Onda</a>
+    </div>
+    <div id="navbar" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav navbar-middle">
+        <li class="active"><a href="#home">Home</a></li>
+        <li><a class="buttons" href="#guesthouse">Guesthouse</a></li>
+        <li><a class="buttons" href="#location">Location</a></li>
+        <li><a class="buttons" href="#reviews">Reviews</a></li>
+        <li><a class="buttons" href="#reservation">Contact</a></li>
+      </ul>
     </div>
   </nav>
   <!--End Navbar-->
@@ -102,11 +100,50 @@
       <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
     </div>
   </div>
-  <script src="./jquery/jquery.min.js"></script>
+
+  <!--Image Slider-->
+ <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="first-slide" src="./images/logo.jpg" alt="First slide">
+            <div class="container">
+            </div>
+        </div>
+        <div class="item">
+          <img class="second-slide" src="./images/logo.jpg" alt="Second slide">
+            <div class="container">
+            </div>
+        </div>
+        <div class="item">
+          <img class="third-slide" src="./images/logo.jpg" alt="Third slide">
+            <div class="container">
+            </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><br>
+
+  <h2>Amenities</h2>
+
+  
+  
+   <script src="./jquery/jquery.min.js"></script>
   <script src="./bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
-
 
 <!--
 <script type="text/javascript" src="http://www.ericeiraguesthouse.com/wp-content/plugins/lightbox-plus/js/jquery.colorbox-min.js?ver=1.3.17.2"></script>
@@ -119,5 +156,5 @@
 <script src="http://www.ericeiraguesthouse.com/wp-includes/js/wp-emoji-release.min.js?ver=4.3.6" type="text/javascript"></script>
 <script type="text/javascript" src="http://www.ericeiraguesthouse.com/wp-includes/js/jquery/jquery.js?ver=1.11.3"></script>
 <script type="text/javascript" src="http://www.ericeiraguesthouse.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1"></script>
-<script type="text/javascript" src="http://www.ericeiraguesthouse.com/wp-content/plugins/sitepress-multilingual-cms/res/js/sitepress.js"></script>
+<script type="text/javascript" src="http://www.ericeiraguesthouse.com/wp-content/plugins/sitepress-multilingual-cms/res/js/sitepress.js"></script> -->
 
