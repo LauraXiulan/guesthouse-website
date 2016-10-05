@@ -108,6 +108,11 @@ body, html {
 	z-index: 1;
 }
 
+#logo1 {
+	width: 50px;
+	height: auto;
+}
+
 #language-menu {
 	bottom: 70px;
 	position: absolute;
@@ -163,4 +168,34 @@ body, html {
 	position: relative;
 	top: 1px;
 }
+
+/*End Banner*/
+
+/*Navbar*/
+/*.navbar {
+	margin-left: 410px;
+	margin-right: 410px;
+}*/
+
+.navbar-header {
+	padding-right: 40px;
+	padding-left: 40px;
+}
+
+
+
+.navbar-brand {
+	font-size: 24px;
+}
+
+.active {
+	margin-right: 40px;
+	margin-left: 40px;
+}
+
+.buttons {
+	margin-right: 40px;
+	margin-left: 40px;
+}
+
 
