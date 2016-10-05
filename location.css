@@ -1,0 +1,165 @@
+.starter-template {
+	padding: 40px 15px;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: #002a40;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+div {
+	display: block;
+}
+
+body, html {
+	font-family: 'Open Sans', sans-serif !important;
+}
+
+/*Banner and menu*/
+#menu-opener {
+	display: none;
+	position: absolute;
+	top: 35px;
+	right: 35px;
+	z-index: 1000;
+	color: #fff;
+	font-size: 25px;
+	cursor: pointer;
+}
+
+.fa {
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+}
+
+#body {
+	margin: 0 auto 0 auto;
+	text-align: left;
+}
+
+#outer {
+	width: 100%;
+	padding: 0;
+	margin: 0 auto 0 auto;
+}
+
+#wrapper {
+	text-align: left;
+	padding: 0;
+	margin: 0 auto 0 auto;
+	background-color: #ffffff;
+}
+
+#header-wrapper {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 400px;
+	text-align: center;
+}
+
+#menu {
+	position: absolute;
+	top: 10px;
+	right: 25px;
+	margin: 25px auto;
+	width: auto;
+	text-transform: uppercase;
+	z-index: 1000;
+}
+
+#menu ul, #language-menu ul {
+	float: left;
+}
+
+#menu ul li, #language-menu ul li {
+	float: left;
+	padding: 8px 0px;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+#menu ul li a, #language-menu ul li a {
+	color: #fff;
+	text-align: center;
+	padding: 7px 5px;
+}
+
+#menu ul li a span, #language-menu ul li a span {
+	color: #969696;
+	padding-right: 5px;
+}
+
+#logo {
+	float: left;
+	padding: 20px 0 0 20px;
+	position: relative;
+	z-index: 1;
+}
+
+#language-menu {
+	bottom: 70px;
+	position: absolute;
+	right: 20px;
+}
+
+#language-menu #lang_sel {
+	margin-right: 15px;
+	margin-top: 15px;
+}
+
+#lang_sel {
+	height: 32px;
+	position: relative;
+	z-index: 99;
+	font-family: verdana, arial, sans-serif;
+	float: right;
+	top: 2px;
+}
+
+#lang_sel li {
+	width: 74px;
+	float: left;
+	width: 149px;
+	position: relative;
+}
+
+#lang_sel ul, #lang_sel li {
+	padding: 0 !important;
+	margin: 0 !important;
+	list-style-type: none !important;
+}
+
+#lang_sel a.lang_sel_sel {
+	background: url(../img/nav-arrow-down.png) #fff right no-repeat;
+	color: #444;
+}
+
+#lang_sel a, #lang_sel a:visited {
+	display: block;
+	font-size: 11px;
+	text-decoration: none !important;
+	color: #444444;
+	border: 1px solid #cdcdcd;
+	background: #fff;
+	padding-left: 10px;
+	line-height: 24px;
+}
+
+#lang_sel img.iclflag {
+	width: 18px;
+	height: 12px;
+	position: relative;
+	top: 1px;
+}
