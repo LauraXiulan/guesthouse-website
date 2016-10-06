@@ -108,11 +108,14 @@ body, html {
 	z-index: 1;
 }
 
+<<<<<<< c922242ddf551cfd6339020e99f4b85603be0895
 #logo1 {
 	width: 50px;
 	height: :auto;
 }
 
+=======
+>>>>>>>  added location css and html
 #language-menu {
 	bottom: 70px;
 	position: absolute;
@@ -168,6 +171,7 @@ body, html {
 	position: relative;
 	top: 1px;
 }
+<<<<<<< c922242ddf551cfd6339020e99f4b85603be0895
 
 
 /* ----------- content ------------*/
@@ -205,3 +209,5 @@ hr {
 
 
 
+=======
+>>>>>>>  added location css and html
