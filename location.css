@@ -17,7 +17,7 @@ div {
 }
 
 body, html {
-	font-family: 'Open Sans', sans-serif !important;
+	font-family: 'Century Gothic', sans-serif !important;
 }
 
 /*Banner and menu*/
@@ -169,23 +169,38 @@ body, html {
 	top: 1px;
 }
 
+/*Navbar*/
+
+.navbar {
+	border-radius: 2px;
+}
+
+.navbar-brand {
+	font-size: 24px;
+	margin-left: 20px;
+}
+
+.nav.navbar-nav.navbar-middle li a {
+	color: white;
+}
+
+.active {
+	margin-right: 20px;
+	margin-left: 460px;
+	font-size: 24px;
+}
+
+.buttons {
+	margin-right: 20px;
+	margin-left: 0px;
+	font-size: 24px;
+	text-align: center;
+}
+
+/* End Navbar */
+
 
 /* ----------- content ------------*/
-
-.h1 {
-	color: teal;
-}
-
-hr {
-	clear: both;
-	color: cadetblue;
-	background-color: cadetblue;
-	height: 5px;
-	border-width: 0;
-	width: 25%;
-}
-
-
 
 /* Columns */
 .marketing .col-lg-4 {
@@ -200,3 +215,60 @@ hr {
   margin-left: 10px;
 }
 
+h1 {
+	color: teal;
+}
+
+.column-image {
+	width: 100%;
+	higth: auto;
+}
+
+hr {
+	clear: both;
+	color: cadetblue;
+	background-color: cadetblue;
+	height: 5px;
+	border-width: 0;
+	width: 25%;
+}
+#line2 {
+	clear: both;
+	color: black;
+	background-color: black;
+	height: 1px;
+	border-width: 0;
+	width: 100%;
+}
+
+#line3 {
+	clear: both;
+	color: grey;
+	background-color: grey;
+	height: 1px;
+	border-width: 0;
+	width: 90%;
+}
+
+h1 {
+	color: cadetblue;
+	font-size: 60px;
+}
+h2 {
+	color: cadetblue;
+	text-align: left;
+}
+
+h3 {
+	color: grey;
+	text-align: left;
+}
+p {
+	color: grey;
+	text-align: left;
+}
+
+#website {
+	color: grey;
+	font-size: 15px;
+}
