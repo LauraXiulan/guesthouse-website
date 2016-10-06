@@ -245,6 +245,7 @@ h2 {
 
 /*Amenities*/
 
+/*
 @media (min-width: 768px)
 .content-head {
     padding-top: 2em;
@@ -466,7 +467,7 @@ ol, ul {
     width: 100%;
     z-index: -999998;
     position: fixed;
-}
+} */
 
 
 
