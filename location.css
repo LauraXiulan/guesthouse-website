@@ -69,16 +69,6 @@ body, html {
 	text-align: center;
 }
 
-#menu {
-	position: absolute;
-	top: 10px;
-	right: 25px;
-	margin: 25px auto;
-	width: auto;
-	text-transform: uppercase;
-	z-index: 1000;
-}
-
 #menu ul, #language-menu ul {
 	float: left;
 }
@@ -101,20 +91,8 @@ body, html {
 	padding-right: 5px;
 }
 
-#logo {
-	float: left;
-	padding: 20px 0 0 20px;
-	position: relative;
-	z-index: 1;
-}
-
-#logo1 {
-	width: 50px;
-	height: :auto;
-}
-
 #language-menu {
-	bottom: 70px;
+	top: 10px;
 	position: absolute;
 	right: 20px;
 }
@@ -168,6 +146,8 @@ body, html {
 	position: relative;
 	top: 1px;
 }
+
+/*End Banner*/
 
 /*Navbar*/
 
@@ -288,4 +268,67 @@ p {
 	display: inline-block;
 	padding-bottom: 10px;
 }
+
+/*Footer*/
+@media (max-width: 950px)
+#footer, #content-pages, #pre-footer, #pre-footer img, .devide img, .devide {
+    width: 100%;
+}
+
+#footer {
+    margin: 0 auto;
+    background-color: #ffffff;
+    width: 960px;
+    height: 30px;
+    color: #646464;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#footer .left {
+    width: auto;
+}
+
+#footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 15px 0px;
+}
+
+#footer li {
+    display: inline-block;
+    padding: 0 4px;
+    width: auto;
+}
+
+#footer a {
+    color: #646464;
+    text-decoration: underline;
+ }
+
+.icon {
+	width: 50px;
+	height: auto;
+}
+
+#footer .right {
+    width: auto;
+    color: #a4a4a4;
+    font-size: 20px;
+}
+
+#footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 15px 0px;
+}
+
+#footer li {
+    display: inline-block;
+    padding: 0 4px;
+    width: auto;
+}
+
+/* End Footer */
 
