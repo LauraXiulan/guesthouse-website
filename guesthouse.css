@@ -17,11 +17,49 @@ div {
 }
 
 body, html {
-	font-family: 'Open Sans', sans-serif !important;
+	font-family: 'Century Gothic', sans-serif !important;
+}
+
+h1 {
+	font-size: 60px;
+	color: cadetblue;
 }
 
 h2 {
 	text-align: center;
+}
+
+p {
+	color: grey;
+}
+
+hr {
+	clear: both;
+	color: cadetblue;
+	background-color: cadetblue;
+	height: 5px;
+	border-width: 0;
+	width: 35%;
+}
+
+.hr-standard {
+	clear: both;
+	color: grey;
+	background-color: grey;
+	height: 1px;
+	border-width: 0;
+	width: 35%;
+	float: left;
+	margin-left: 10px;
+}
+
+.hr-standard1 {
+	clear: both;
+	color: grey;
+	background-color: grey;
+	height: 1px;
+	border-width: 0;
+	width: 35%;
 }
 
 /*Banner and menu*/
@@ -73,16 +111,6 @@ h2 {
 	text-align: center;
 }
 
-#menu {
-	position: absolute;
-	top: 10px;
-	right: 25px;
-	margin: 25px auto;
-	width: auto;
-	text-transform: uppercase;
-	z-index: 1000;
-}
-
 #menu ul, #language-menu ul {
 	float: left;
 }
@@ -105,20 +133,8 @@ h2 {
 	padding-right: 5px;
 }
 
-#logo {
-	float: left;
-	padding: 20px 0 0 20px;
-	position: relative;
-	z-index: 1;
-}
-
-#logo1 {
-	width: 50px;
-	height: auto;
-}
-
 #language-menu {
-	bottom: 70px;
+	top: 10px;
 	position: absolute;
 	right: 20px;
 }
@@ -184,21 +200,22 @@ h2 {
 .navbar-brand {
 	font-size: 24px;
 	margin-left: 20px;
+	color: white !important;
 }
 
 .nav.navbar-nav.navbar-middle li a {
 	color: white;
 }
 
-.active {
+.active1 {
 	margin-right: 20px;
 	margin-left: 460px;
 	font-size: 24px;
 }
 
 .buttons {
-	margin-right: 20px;
-	margin-left: 0px;
+	margin-right: auto;
+	margin-left: auto;
 	font-size: 24px;
 	text-align: center;
 }
@@ -209,7 +226,8 @@ h2 {
 .carousel {
   height: auto;
   width: 70%;
-  margin-left: 270px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 60px;
   position: relative;
 }
@@ -227,7 +245,7 @@ h2 {
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 500px;
+  height: 600px;
   background-color: black;
 }
 .carousel-inner > .item > img {
@@ -242,233 +260,132 @@ h2 {
 .carousel-indicators {
     bottom: 20px;
 }
+/*End Carousel*/
 
 /*Amenities*/
 
-/*
-@media (min-width: 768px)
-.content-head {
-    padding-top: 2em;
-    padding-right: 2em;
-    padding-bottom: 0;
-    padding-left: 2em;
-    padding-bottom: 0;
+.amenities {
+	list-style: none;
+    border: 2px solid cadetblue;
+    width: 70%;
+    background-color: white;
+    color: grey;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    text-align: center;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
 }
 
-@media (min-width: 1025px)
-.body-wrap {
-    border-top: 3px solid black;
-    margin-top: 0;
+.column {
+	padding-left: 100px;
 }
 
-.content-head {
+.amenities h2 {
+	text-align: center;
+}
+
+.facilities {
+	min-width: 520px;
+	margin-bottom: 5em;
+	display: inline-block;
+    width: 90%;
+    height: 100%;
+    vertical-align: top;
+    box-sizing: border-box;
+    margin-top: 2em;
+}
+
+.facilities li {
+	clear: both;
+	font-size: 18px;
+	text-align: left;
+	padding-top: 10px;
+    width: 60%;
+}
+
+.facilities ul {
+	padding-left: 1.2em;
+}
+
+.facilities-category {
+	text-align: left;
+	padding-left: 0.8em;
+}
+
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+}
+
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+/*Footer*/
+@media (max-width: 950px)
+#footer, #content-pages, #pre-footer, #pre-footer img, .devide img, .devide {
+    width: 100%;
+}
+
+#footer {
+    margin: 0 auto;
+    background-color: #ffffff;
+    width: 960px;
+    height: 30px;
+    color: #646464;
+    font-size: 1.1em;
+    margin-bottom: 10px;
     text-align: center;
 }
 
-.content-head {
-    box-sizing: border-box;
-    -o-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    padding: 1em;
+#footer .left {
+    width: auto;
 }
 
-@media (min-width: 768px)
-.sectionTitle {
-    font-size: 1.75em;
-}
-
-@media (min-width: 1025px)
-.sectionTitle {
-    font-size: 2.2em;
-}
-
-@media (min-width: 768px)
-.sectionTitle {
-    font-size: 2em;
-}
-
-.sectionTitle {
-    font-family: "Dosis","Helvetica Neue","HelveticaNeue",Helvetica,Arial,sans-serif;
-    font-size: 1.8em;
-    line-height: 1.1;
-    margin-bottom: .5em;
-    max-width: 24em;
-    margin: 0 auto;
-}
-
-@media (min-width: 1025px)
-h1, .header-level1 {
-    font-size: 2.6em;
-}
-
-@media (min-width: 768px)
-h1, .header-level1 {
-    font-size: 2.4em;
-}
-
-h1, .header-level1 {
-    font-size: 2.2em;
-    line-height: 1.2;
-    margin-bottom: .5em;
-}
-
-h1, h2, h3, .header-level1, .header-level2, .header-level3, .header-level4, .header-level5 {
-    font-family: "Dosis","Helvetica Neue","HelveticaNeue",Helvetica,Arial,sans-serif;
-}
-
-@media (min-width: 768px)
-.pg-facilities .content-body-inner {
-    padding-right: 1em;
-}
-
-.pg-facilities .content-body-inner {
-    max-width: 1360px;
-}
-
-@media (min-width: 768px)
-.content-body-inner {
-    padding-top: 2em;
-    padding-right: 2em;
-    padding-bottom: 2em;
-    padding-left: 2em;
-}
-
-.content-body-inner {
-    box-sizing: border-box;
-    -o-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    padding: 1em;
-}
-
-.pg-facilities .facility-group {
-    margin-bottom: 3em;
-}
-
-@media (min-width: 768px)
-.facility-group {
-    width: 32.5%;
-}
-
-@media (min-width: 520px)
-.facility-group {
-    display: inline-block;
-    width: 49%;
-    vertical-align: top;
-    box-sizing: border-box;
-    -o-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-}
-
-.pg-facilities .facility-category {
-    margin-right: 1.5em;
-}
-
-@media (min-width: 1025px)
-h4, .header-level4 {
-    font-size: 1.4em;
-}
-
-@media (min-width: 768px)
-h4, .header-level4 {
-    font-size: 1.3em;
-}
-
-h4, .header-level4 {
-    font-size: 1.2em;
-    line-height: 1.1;
-    margin-bottom: .5em;
-}
-
-.pg-facilities .icon-facility {
-    font-size: 14px;
-    position: relative;
-    top: -3px;
-}
-
-.pg-facilities .icon-facility {
-    display: inline-block;
-    font-size: 18px;
-    margin-right: .5em;
-}
-
-[class^="icon-"], [class*=" icon-"] {
-    font-family: 'facilities-category-icons';
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-.pg-facilities .facility-list {
-    margin-right: 2em;
-}
-
-ol, ul {
+#footer ul {
     list-style: none;
-}
-
-.pg-facilities li.facility:last-child {
-    border-bottom: 1px solid #eee;
-}
-
-.pg-facilities li.facility {
-    margin-left: 37px;
-}
-
-.pg-facilities li.facility {
-    margin-left: 27px;
-    box-sizing: border-box;
-    border-top: 1px solid #eee;
-    line-height: 1.1;
-    padding: .5em 0;
-}
-
-.clearfix {
-    overflow: hidden;
-    display: inline-block;
-    display: block;
-}
-
-.body-wrap, .footer {
-    background-color: white;
-}
-
-.body-wrap {
-    max-width: 1025px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 160px;
-}
-
-@media (min-width: 1025px)
-.backstretch {
-    display: block;
-    background-color: #f4f4f4;
-    background-image: none;
-    background-repeat: no-repeat;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
-    left: 0;
-    top: 0;
-    overflow: hidden;
     margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 100%;
-    z-index: -999998;
-    position: fixed;
-} */
+    padding: 15px 0px;
+}
 
+#footer li {
+    display: inline-block;
+    padding: 0 4px;
+    width: auto;
+}
+
+#footer a {
+    color: #646464;
+    text-decoration: underline;
+ }
+
+.icon {
+	width: 50px;
+	height: auto;
+}
+
+#footer .right {
+    width: auto;
+    color: #a4a4a4;
+    font-size: 20px;
+}
+
+#footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 15px 0px;
+}
+
+#footer li {
+    display: inline-block;
+    padding: 0 4px;
+    width: auto;
+}
+
+/* End Footer */
 
 
 
