@@ -33,6 +33,10 @@ p {
 	color: grey;
 }
 
+.lead {
+	text-align: left;
+}
+
 hr {
 	clear: both;
 	color: cadetblue;
@@ -270,12 +274,13 @@ hr {
     width: 70%;
     background-color: white;
     color: grey;
-    margin-left: auto;
+    margin-left: 15%;
     margin-right: auto;
     height: auto;
     text-align: center;
     margin-bottom: 40px;
     padding-bottom: 40px;
+    display: inline-block;
 }
 
 .column {
