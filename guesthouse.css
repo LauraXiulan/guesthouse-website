@@ -227,7 +227,7 @@ h2 {
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 500px;
+  height: 600px;
   background-color: black;
 }
 .carousel-inner > .item > img {
@@ -249,14 +249,19 @@ h2 {
 .amenities {
 	list-style: none;
     border: 1px solid #aaa;
-    padding: 0px;
-    width: 80%;
+    width: 65%;
     background-color: white;
     color: black;
     margin-left: auto;
     margin-right: auto;
     height: auto;
     text-align: center;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+}
+
+.column {
+	padding-left: 100px;
 }
 
 .amenities h2 {
@@ -265,11 +270,13 @@ h2 {
 
 .facilities {
 	min-width: 520px;
-	margin-bottom: 3em;
+	margin-bottom: 5em;
 	display: inline-block;
-    width: 70%;
+    width: 90%;
+    height: 100%;
     vertical-align: top;
     box-sizing: border-box;
+    margin-top: 2em;
 }
 
 .facilities li {
@@ -277,13 +284,16 @@ h2 {
 	font-size: 18px;
 	text-align: left;
 	padding-top: 10px;
-	padding-right: 10px;
-    text-indent: -2em;
+    width: 60%;
+}
 
+.facilities ul {
+	padding-left: 1.2em;
 }
 
 .facilities-category {
 	text-align: left;
+	padding-left: 0.8em;
 }
 
 .marketing .col-lg-4 {
@@ -317,6 +327,7 @@ hr {
 	border-width: 0;
 	width: 35%;
 	float: left;
+	margin-left: 10px;
 }
 
 .hr-standard1 {
