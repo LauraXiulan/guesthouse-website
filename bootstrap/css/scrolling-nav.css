@@ -1,0 +1,67 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+
+
+@media(min-width:768px) {
+    .navbar {
+        padding: 0px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+.intro-section {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.about-section {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.student-section {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.degree-section {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.teacher-section {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.programmer-section {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.skills-section {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.projects-section {
+    padding-top: 40px;
+    text-align: center;
+    color: black;
+}
+
+.contact-section {
+    padding-top: 80px;
+    text-align: center;
+    padding-bottom: 40px;
+}
