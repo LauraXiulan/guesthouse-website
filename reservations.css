@@ -1,6 +1,6 @@
 .starter-template {
 	padding: 40px 15px;
-	text-align: center;
+	text-align: left;
 }
 
 a {
@@ -187,7 +187,9 @@ body, html {
 }
 
 h1 {
+	text-align: center;
 	color: teal;
+	font-size: 60px;
 }
 
 h2{
@@ -211,16 +213,16 @@ hr {
 	background-color: cadetblue;
 	height: 5px;
 	border-width: 0;
-	width: 25%;
+	width: 35%;
 }
 
 .section {
 	display: inline-block;
-	padding-top: 30px;
-	padding-bottom: 30px;
-}
+	margin-bottom: 30px;
+	margin-top: 30px;
+} 
 
-#line2 {
+.line2 {
 	clear: both;
 	color: grey;
 	background-color: grey;
@@ -232,16 +234,19 @@ hr {
 
 /* Column */
 
-.marketing .col-lg-4 {
-  margin-bottom: 20px;
-  text-align: center;
+.left { 
+	float:left; 
+	width:200px; 
 }
-.marketing h2 {
-  font-weight: normal;
+
+.right { 
+	float:right;
+	width:500px;  
 }
-.marketing .col-lg-4 p {
-  margin-right: 10px;
-  margin-left: 10px;
+
+section {
+	display: inline-block;
+	padding-bottom: 30px;
 }
 
 
