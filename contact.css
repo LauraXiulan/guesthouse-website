@@ -27,6 +27,11 @@ h1 {
 
 h2 {
 	text-align: center;
+	color: cadetblue;
+}
+
+div {
+	display: block;
 }
 
 p {
@@ -35,6 +40,11 @@ p {
 
 .lead {
 	text-align: left;
+}
+
+.lead1 {
+	text-align: left;
+	padding-bottom: 40px;
 }
 
 hr {
@@ -52,18 +62,7 @@ hr {
 	background-color: grey;
 	height: 1px;
 	border-width: 0;
-	width: 35%;
-	float: left;
-	margin-left: 10px;
-}
-
-.hr-standard1 {
-	clear: both;
-	color: grey;
-	background-color: grey;
-	height: 1px;
-	border-width: 0;
-	margin-right: 38%;
+	width: 100%;
 }
 
 /*Banner and menu*/
@@ -213,7 +212,7 @@ hr {
 
 .active1 {
 	margin-right: 20px;
-	margin-left: 350px;
+	margin-left: 460px;
 	font-size: 24px;
 }
 
@@ -226,139 +225,102 @@ hr {
 
 /* End Navbar */
 
-/*Carousel*/
-.carousel {
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 60px;
-  position: relative;
+/*Maps*/
+
+.maps {
+	float: left;
 }
 
-/* Since positioning the image, we need to help out the caption */
-.carousel-caption {
-  z-index: 10;
+.content {
+	float: left;
+	padding-right: 150px;
 }
 
- .carousel-caption p {
-   margin-bottom: 20px;
-   font-size: 21px;
-   line-height: 1.4;
+/*Contact form*/
+
+.row p {
+	padding: 40px 15px;
+	text-align: center;
 }
 
-/* Declare heights because of positioning of img element */
-.carousel .item {
-  height: 600px;
-  background-color: black;
-}
-.carousel-inner > .item > img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  height: 100%;
- }
-
-@media screen and (min-width: 768px)
-.carousel-indicators {
-    bottom: 20px;
-}
-/*End Carousel*/
-
-/*Amenities*/
-
-.amenities {
-	list-style: none;
-    border: 2px solid cadetblue;
-    background-color: white;
-    color: grey;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
-    text-align: center;
-    margin-bottom: 40px;
-    padding-bottom: 40px;
-    display: inline-block;
+.contact-form{ 
+	margin-top:15px;
 }
 
-
-.amenities h2 {
-	width: 85%;
+.contact-form .textarea{ 
+	min-height:220px; 
+	resize:none;
 }
 
-.facilities {
-	min-width: 520px;
-	margin-bottom: 5em;
-	display: inline-block;
-    width: 100%;
-    height: 100%;
-    vertical-align: top;
-    box-sizing: border-box;
-    margin-top: 2em;
-    margin-left: 70px;
+.form-control{ 
+	box-shadow:none; 
+	border-color:grey; 
+	height:49px;
 }
 
-.facilities li {
-	clear: both;
-	font-size: 18px;
-	text-align: left;
-	padding-top: 10px;
-    width: 50%;
+.form-control:focus{ 
+	box-shadow:none; 
+	border-color:cadetblue;
 }
 
-.facilities ul {
-	padding-left: 1.2em;
+.form-control-feedback{ 
+	line-height:50px;
 }
 
-.facilities-category {
-	text-align: left;
+.main-btn{ 
+	background:cadetblue; 
+	border-color:cadetblue; 
+	color:#fff;
 }
 
-.marketing .col-lg-4 {
-  margin-bottom: 20px;
+.main-btn:hover{ 
+	background:#00a491;
+	color:#fff;
 }
 
-.marketing .col-lg-4 p {
-  margin-bottom: 10px;
+.form-control-feedback {
+	line-height: 50px;
+	top: 0px;
 }
 
 /*Footer*/
 @media (max-width: 950px)
 #footer, #content-pages, #pre-footer, #pre-footer img, .devide img, .devide {
-    width: 100%;
+	width: 100%;
 }
 
 #footer {
-    margin: 0 auto;
-    background-color: #ffffff;
-    width: 960px;
-    height: 30px;
-    color: #646464;
-    font-size: 1.1em;
-    margin-bottom: 10px;
-    text-align: center;
+	margin: 0 auto;
+	background-color: #ffffff;
+	width: 960px;
+	height: 30px;
+	color: #646464;
+	font-size: 1.1em;
+	margin-bottom: 10px;
+	text-align: center;
+	margin-top: 40px;
 }
 
 #footer .left {
-    width: auto;
+	width: auto;
 }
 
 #footer ul {
-    list-style: none;
-    margin: 0;
-    padding: 15px 0px;
+	list-style: none;
+	margin: 0;
+	padding: 15px 0px;
 }
 
 #footer li {
-    display: inline-block;
-    padding: 0 4px;
-    width: auto;
+	display: inline-block;
+	padding: 0 4px;
+	width: auto;
 }
 
 #footer a {
-    color: #646464;
-    text-decoration: underline;
- }
+	color: #646464;
+	text-decoration: underline;
+}
 
 .icon {
 	width: 50px;
@@ -366,24 +328,21 @@ hr {
 }
 
 #footer .right {
-    width: auto;
-    color: #a4a4a4;
-    font-size: 20px;
+	width: auto;
+	color: #a4a4a4;
+	font-size: 20px;
 }
 
 #footer ul {
-    list-style: none;
-    margin: 0;
-    padding: 15px 0px;
+	list-style: none;
+	margin: 0;
+	padding: 15px 0px;
 }
 
 #footer li {
-    display: inline-block;
-    padding: 0 4px;
-    width: auto;
+	display: inline-block;
+	padding: 0 4px;
+	width: auto;
 }
 
 /* End Footer */
-
-
-

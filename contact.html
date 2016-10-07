@@ -8,9 +8,9 @@
   <meta name="author" content="">
   <title>Guesthouse</title>
   <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="style.css" rel="stylesheet">
+  <link href="contact.css" rel="stylesheet">
 </head>
-  <body>
+<body>
 
   <!--Banner + menu + taalinstelling-->
   <a id="menu-opener">
@@ -19,23 +19,7 @@
   <div id="body">
     <div id="outer">
       <div id="wrapper">
-        <div id="header-wrapper" style="background-image: url('./images/fruit.jpg');"><p id="website-title">Ola Onda Guesthouse</p>
-        <div id="book-now">
-
-          <!-- The overlay -->
-        <div id="myNav" class="overlay">
-        <!-- Button to close the overlay navigation -->
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <!-- Overlay content -->
-            <div class="overlay-content">
-              <a href="reservations.html">Reservations</a>
-            </div>
-
-        </div>
-
-        <!-- Use any element to open/show the overlay navigation menu -->
-        <button class="overlay-button">
-        <span onclick="openNav()">Check Availability</span></button>
+        <div id="header-wrapper" style="background-image: url('./images/fruit.jpg');">
           <div id="language-menu">
             <div id="lang_sel">
               <ul>
@@ -97,14 +81,58 @@
   </nav>
   <!--End Navbar-->
 
-    <div class="container">
-
-      <div class="starter-template">
-        <h1>Welcome</h1>
+  <!-- Contact Information -->
+  <div class="container">
+    <div class="starter-template">
+      <section>
+        <h1>Contact Us</h1>
+        <hr><br>
+      </section>
+    </div>
+    <section>
+    <div class="content"><p class="lead"><strong>Adress:</strong><br>Mato Da Cruz 1<br>2655-355 Ericeira</p>
+        <p class="lead">Ola Onda: +351 0000 000 00</p>
+        <p class="lead">olaonda@gmail.com</p><br>
       </div>
 
+      <!-- Add Google Maps -->
+      <script class="maps" src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:440px;width:700px;'><div id='gmap_canvas' style='height:440px;width:700px;'></div><div><small><a href="http://www.embedgooglemaps.com/en/">Generate your map here, quick and easy!                  Give your customers directions                  Get found</a></small></div><div><small><a href="https://top10geeks.com/top-10-best-bluetooth-speakers-2016/">Top 10 Bluetooth speakers of 2016</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(38.96907953938784,-9.415070519604464),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(38.96907953938784,-9.415070519604464)});infowindow = new google.maps.InfoWindow({content:'<strong>Ola Onda</strong><br>Rua Mato da Cruz, Ericeira<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script> <br><br>
+      <hr class="hr-standard"><br>
+      <!-- End Google Maps -->
+      <!--End Contact Information -->
 
-  <!--Footer-->
+      <!-- Contact Form -->
+      <form role="form" id="contact-form" class="contact-form">
+        <h2>Contact Form</h2><br><br>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="text" class="form-control" name="Name" autocomplete="off" id="Name" placeholder="Name">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="email" class="form-control" name="email" autocomplete="off" id="email" placeholder="E-mail">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="form-group">
+              <textarea class="form-control textarea" rows="3" name="Message" id="Message" placeholder="Message"></textarea>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <button type="submit" class="btn main-btn pull-right">Send a message</button>
+          </div>
+        </div>
+      </form>
+
+      <!-- End Contact Form -->
+
+      <!--Footer-->
     <!-- Wavy Line <div id="pre-footer">
     <img alt="Ericeira Guest House" src="http://www.ericeiraguesthouse.com/wp-content/themes/egh/img/wave-02.svg">
   </div> -->
@@ -123,9 +151,10 @@
 
 <!-- End Footer -->
 
+
 <script src="./jquery/jquery.min.js"></script>
 <script src="./bootstrap/js/progressbar.js"></script>
 <script src="./bootstrap/js/bootstrap.min.js"></script>
-<script src="index.js"></script>
+<script src="contact.js"></script>
 </body>
 </html>
