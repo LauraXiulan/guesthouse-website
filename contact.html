@@ -81,14 +81,56 @@
   </nav>
   <!--End Navbar-->
 
+  <!-- Contact Information -->
   <div class="container">
     <div class="starter-template">
       <section>
-        <h1>Reviews</h1>
-        <hr>
+        <h1>Contact Us</h1>
+        <hr><br>
       </section>
     </div>
-  </div>
+    <section>
+    <div class="content"><p class="lead"><strong>Adress:</strong><br>Street Name, Nr.<br>Postal Code, Ericeira</p>
+    <p class="lead">Ola Onda: +351 0000 000 00</p>
+    <p class="lead">olaonda@gmail.com</p><br>
+    </div>
+
+    <!-- Add Google Maps -->
+    <script class="maps" src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:440px;width:700px;'><div id='gmap_canvas' style='height:440px;width:700px;'></div><div><small><a href="http://www.embedgooglemaps.com/en/">Generate your map here, quick and easy!                  Give your customers directions                  Get found</a></small></div><div><small><a href="https://top10geeks.com/top-10-best-bluetooth-speakers-2016/">Top 10 Bluetooth speakers of 2016</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(38.96907953938784,-9.415070519604464),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(38.96907953938784,-9.415070519604464)});infowindow = new google.maps.InfoWindow({content:'<strong>Ola Onda</strong><br>Rua Mato da Cruz, Ericeira<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script> <br><br>
+      <hr class="hr-standard"><br>
+    <!-- End Google Maps -->
+    <!--End Contact Information -->
+
+    <!-- Contact Form -->
+    <form role="form" id="contact-form" class="contact-form">
+    <h2>Contact Form</h2><br><br>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <input type="text" class="form-control" name="Name" autocomplete="off" id="Name" placeholder="Name">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <input type="email" class="form-control" name="email" autocomplete="off" id="email" placeholder="E-mail">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="form-group">
+            <textarea class="form-control textarea" rows="3" name="Message" id="Message" placeholder="Message"></textarea>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <button type="submit" class="btn main-btn pull-right">Send a message</button>
+        </div>
+      </div>
+    </form>
+
+    <!-- End Contact Form -->
 
  <!--Footer-->
     <!-- Wavy Line <div id="pre-footer">
@@ -105,6 +147,7 @@
           <li>© 2016 Ola Onda</li>   
       </ul>
     </div>
+  </div>
 
   <!-- End Footer -->
 

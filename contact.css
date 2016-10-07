@@ -27,6 +27,7 @@ h1 {
 
 h2 {
 	text-align: center;
+	color: cadetblue;
 }
 
 div {
@@ -61,7 +62,7 @@ hr {
 	background-color: grey;
 	height: 1px;
 	border-width: 0;
-	width: 65%;
+	width: 100%;
 }
 
 /*Banner and menu*/
@@ -223,3 +224,125 @@ hr {
 }
 
 /* End Navbar */
+
+/*Maps*/
+
+.maps {
+	float: left;
+}
+
+.content {
+	float: left;
+	padding-right: 150px;
+}
+
+/*Contact form*/
+
+.row p {
+    padding: 40px 15px;
+    text-align: center;
+  }
+
+ .contact-form{ 
+ 	margin-top:15px;
+ }
+
+ .contact-form .textarea{ 
+ 	min-height:220px; 
+ 	resize:none;
+ }
+
+ .form-control{ 
+ 	box-shadow:none; 
+ 	border-color:grey; 
+ 	height:49px;
+ }
+
+ .form-control:focus{ 
+ 	box-shadow:none; 
+ 	border-color:cadetblue;
+ }
+
+ .form-control-feedback{ 
+ 	line-height:50px;
+ }
+
+ .main-btn{ 
+ 	background:cadetblue; 
+ 	border-color:cadetblue; 
+ 	color:#fff;
+ }
+
+ .main-btn:hover{ 
+ 	background:#00a491;
+ 	color:#fff;
+ }
+
+ .form-control-feedback {
+	line-height: 50px;
+ 	top: 0px;
+ }
+
+ /*Footer*/
+@media (max-width: 950px)
+#footer, #content-pages, #pre-footer, #pre-footer img, .devide img, .devide {
+    width: 100%;
+}
+
+#footer {
+    margin: 0 auto;
+    background-color: #ffffff;
+    width: 960px;
+    height: 30px;
+    color: #646464;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#footer .left {
+    width: auto;
+}
+
+#footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 15px 0px;
+}
+
+#footer li {
+    display: inline-block;
+    padding: 0 4px;
+    width: auto;
+}
+
+#footer a {
+    color: #646464;
+    text-decoration: underline;
+ }
+
+.icon {
+	width: 50px;
+	height: auto;
+}
+
+#footer .right {
+    width: auto;
+    color: #a4a4a4;
+    font-size: 20px;
+}
+
+#footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 15px 0px;
+}
+
+#footer li {
+    display: inline-block;
+    padding: 0 4px;
+    width: auto;
+}
+
+/* End Footer */
