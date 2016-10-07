@@ -167,13 +167,13 @@ body, html {
 
 .active1 {
 	margin-right: 20px;
-	margin-left: 460px;
+	margin-left: 390px;
 	font-size: 24px;
 }
 
 .buttons {
-	margin-right: 20px;
-	margin-left: 0px;
+	margin-right: auto;
+	margin-left: auto;
 	font-size: 24px;
 	text-align: center;
 }
@@ -202,11 +202,6 @@ h2{
 }
 
 p {
-	text-align: left;
-	color: grey;
-}
-
-ul {
 	text-align: left;
 	color: grey;
 }
@@ -291,12 +286,12 @@ hr {
 
 /* Column */
 
-.left { 
+.left1 { 
 	float:left; 
 	width:200px; 
 }
 
-.right { 
+.right1 { 
 	float:right;
 	width:500px;  
 }
@@ -306,44 +301,52 @@ section {
 	padding-bottom: 30px;
 }
 
+/*End Column*/
+
+.back-top {
+	font-size: 24px;
+	color: grey;
+	float: right;
+}
 
 /*Footer*/
 @media (max-width: 950px)
 #footer, #content-pages, #pre-footer, #pre-footer img, .devide img, .devide {
-    width: 100%;
+	width: 100%;
 }
 
 #footer {
-    margin: 0 auto;
-    background-color: #ffffff;
-    width: 960px;
-    height: 30px;
-    color: #646464;
-    font-size: 1.1em;
-    margin-bottom: 10px;
-    text-align: center;
+	margin: 0 auto;
+	background-color: #ffffff;
+	width: 960px;
+	height: 30px;
+	color: #646464;
+	font-size: 1.1em;
+	margin-bottom: 10px;
+	text-align: center !important;
+	margin-top: 40px;
 }
 
 #footer .left {
-    width: auto;
+	width: auto;
 }
 
 #footer ul {
-    list-style: none;
-    margin: 0;
-    padding: 15px 0px;
+	list-style: none;
+	margin: 0;
+	padding: 15px 0px;
 }
 
 #footer li {
-    display: inline-block;
-    padding: 0 4px;
-    width: auto;
+	display: inline-block;
+	padding: 0 4px;
+	width: auto;
 }
 
 #footer a {
-    color: #646464;
-    text-decoration: underline;
- }
+	color: #646464;
+	text-decoration: underline;
+}
 
 .icon {
 	width: 50px;
@@ -351,21 +354,9 @@ section {
 }
 
 #footer .right {
-    width: auto;
-    color: #a4a4a4;
-    font-size: 20px;
-}
-
-#footer ul {
-    list-style: none;
-    margin: 0;
-    padding: 15px 0px;
-}
-
-#footer li {
-    display: inline-block;
-    padding: 0 4px;
-    width: auto;
+	width: auto;
+	color: #a4a4a4;
+	font-size: 20px;
 }
 
 /* End Footer */
