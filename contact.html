@@ -20,6 +20,23 @@
     <div id="outer">
       <div id="wrapper">
         <div id="header-wrapper" style="background-image: url('./images/fruit.jpg');">
+         <div id="book-now">
+
+          <!-- The overlay -->
+        <div id="myNav" class="overlay">
+        <!-- Button to close the overlay navigation -->
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <!-- Overlay content -->
+            <div class="overlay-content">
+              <a href="reservations.html">Reservations</a>
+              
+            </div>
+
+        </div>
+          <!-- Use any element to open/show the overlay navigation menu -->
+        <button class="overlay-button">
+        <span onclick="openNav()" id="page-top">Check Availability</span></button>
+        
           <div id="language-menu">
             <div id="lang_sel">
               <ul>
@@ -128,7 +145,8 @@
             <button type="submit" class="btn main-btn pull-right">Send a message</button>
           </div>
         </div>
-      </form>
+      </form><br><br>
+      <div class="back-top"><a href="#page-top">Back to Top</a></div><br>
 
       <!-- End Contact Form -->
 

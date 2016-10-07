@@ -20,6 +20,23 @@
     <div id="outer">
       <div id="wrapper">
         <div id="header-wrapper" style="background-image: url('./images/fruit.jpg');">
+        <div id="book-now">
+
+          <!-- The overlay -->
+        <div id="myNav" class="overlay">
+        <!-- Button to close the overlay navigation -->
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <!-- Overlay content -->
+            <div class="overlay-content">
+              <a href="reservations.html">Reservations</a>
+              
+            </div>
+
+        </div>
+
+        <!-- Use any element to open/show the overlay navigation menu -->
+        <button class="overlay-button">
+        <span onclick="openNav()" id="page-top">Check Availability</span></button>
           <div id="language-menu">
             <div id="lang_sel">
               <ul>
@@ -100,7 +117,7 @@
           consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
           cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
           proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </section><br>
+        </section>
       </div>
     </div>
 
@@ -172,7 +189,9 @@
     <!-- End Review Circle -->
 
     <!-- Start Reviews -->
-    <hr class="hr-standard"><br>
+    <section id="hr-width">
+    <hr class="hr-standard">
+    </section><br>
     <div class="container">
       <div class="starter-template1">
         <section>
@@ -211,6 +230,7 @@
     </div>
     <hr class="hr-standard">
     <br>
+    <div class="back-top"><a href="#page-top">Back to Top</a></div><br>
 
     <!--Footer-->
     <!-- Wavy Line <div id="pre-footer">
@@ -228,6 +248,7 @@
           <li>© 2016 Ola Onda</li>   
       </ul>
     </div>
+  </div>
 
   <!-- End Footer -->
 

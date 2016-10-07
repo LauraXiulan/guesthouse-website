@@ -194,6 +194,75 @@ hr {
 
 /*End Banner*/
 
+/* The Overlay (background) */
+.overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */    
+    height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: cadetblue; /* Black fallback color */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+    position: relative;
+    top: 25%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: white;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    left: 45px;
+    font-size: 60px;
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+.overlay-button {
+	font-size: 30px;
+	cursor: pointer;
+	color: white;
+	border-radius: 12px;
+	background-color: cadetblue;
+	float: right;
+	margin-top: 17%;
+	margin-right: 25px;
+}
+
+/* End Overlay */
+
 /*Navbar*/
 
 .navbar {
@@ -212,7 +281,7 @@ hr {
 
 .active1 {
 	margin-right: 20px;
-	margin-left: 350px;
+	margin-left: 390px;
 	font-size: 24px;
 }
 
@@ -321,6 +390,14 @@ hr {
   margin-bottom: 10px;
 }
 
+/*End Amenities*/
+
+.back-top {
+	font-size: 24px;
+	color: grey;
+	float: right;
+}
+
 /*Footer*/
 @media (max-width: 950px)
 #footer, #content-pages, #pre-footer, #pre-footer img, .devide img, .devide {
@@ -370,17 +447,6 @@ hr {
     font-size: 20px;
 }
 
-#footer ul {
-    list-style: none;
-    margin: 0;
-    padding: 15px 0px;
-}
-
-#footer li {
-    display: inline-block;
-    padding: 0 4px;
-    width: auto;
-}
 
 /* End Footer */
 

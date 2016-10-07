@@ -167,13 +167,13 @@ body, html {
 
 .active1 {
 	margin-right: 20px;
-	margin-left: 460px;
+	margin-left: 390px;
 	font-size: 24px;
 }
 
 .buttons {
-	margin-right: 20px;
-	margin-left: 0px;
+	margin-right: auto;
+	margin-left: auto;
 	font-size: 24px;
 	text-align: center;
 }
@@ -202,11 +202,6 @@ h2{
 }
 
 p {
-	text-align: left;
-	color: grey;
-}
-
-ul {
 	text-align: left;
 	color: grey;
 }
@@ -291,12 +286,12 @@ hr {
 
 /* Column */
 
-.left { 
+.left1 { 
 	float:left; 
 	width:200px; 
 }
 
-.right { 
+.right1 { 
 	float:right;
 	width:900px;  
 }
@@ -364,7 +359,13 @@ label {
 
 /*---------------- End Reservation form ------- */
 
+/*End Column*/
 
+.back-top {
+	font-size: 24px;
+	color: grey;
+	float: right;
+}
 
 /*Footer*/
 @media (max-width: 950px)
@@ -380,7 +381,8 @@ label {
 	color: #646464;
 	font-size: 1.1em;
 	margin-bottom: 10px;
-	text-align: center;
+	text-align: center !important;
+	margin-top: 40px;
 }
 
 #footer .left {
@@ -413,18 +415,6 @@ label {
 	width: auto;
 	color: #a4a4a4;
 	font-size: 20px;
-}
-
-#footer ul {
-	list-style: none;
-	margin: 0;
-	padding: 15px 0px;
-}
-
-#footer li {
-	display: inline-block;
-	padding: 0 4px;
-	width: auto;
 }
 
 /* End Footer */

@@ -73,8 +73,9 @@ hr {
 	float: left;
 	margin-left: 40px;
 	margin-top: 40px;
-	color: cadetblue;
+	color: white;
 }
+
 #menu-opener {
 	display: none;
 	position: absolute;
@@ -214,8 +215,7 @@ hr {
     z-index: 1; /* Sit on top */
     left: 0;
     top: 0;
-    background-color: rgb(0,0,0); /* Black fallback color */
-    background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
+    background-color: cadetblue; /* Black fallback color */
     overflow-x: hidden; /* Disable horizontal scroll */
     transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
 }
@@ -234,7 +234,7 @@ hr {
     padding: 8px;
     text-decoration: none;
     font-size: 36px;
-    color: #818181;
+    color: white;
     display: block; /* Display block instead of inline */
     transition: 0.3s; /* Transition effects on hover (color) */
 }
@@ -248,7 +248,7 @@ hr {
 .overlay .closebtn {
     position: absolute;
     top: 20px;
-    right: 45px;
+    left: 45px;
     font-size: 60px;
 }
 
@@ -293,7 +293,7 @@ hr {
 
 .active1 {
 	margin-right: 20px;
-	margin-left: 460px;
+	margin-left: 390px;
 	font-size: 24px;
 }
 
@@ -305,6 +305,12 @@ hr {
 }
 
 /* End Navbar */
+
+.back-top {
+	font-size: 24px;
+	color: grey;
+	float: right;
+}
 
 /*Footer*/
 @media (max-width: 950px)
