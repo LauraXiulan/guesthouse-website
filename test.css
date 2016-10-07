@@ -29,12 +29,21 @@ h2 {
 	text-align: center;
 }
 
+div {
+	display: block;
+}
+
 p {
 	color: grey;
 }
 
 .lead {
 	text-align: left;
+}
+
+.lead1 {
+	text-align: left;
+	padding-bottom: 40px;
 }
 
 hr {
@@ -52,18 +61,6 @@ hr {
 	background-color: grey;
 	height: 1px;
 	border-width: 0;
-	width: 35%;
-	float: left;
-	margin-left: 10px;
-}
-
-.hr-standard1 {
-	clear: both;
-	color: grey;
-	background-color: grey;
-	height: 1px;
-	border-width: 0;
-	margin-right: 38%;
 }
 
 /*Banner and menu*/
@@ -213,7 +210,7 @@ hr {
 
 .active1 {
 	margin-right: 20px;
-	margin-left: 350px;
+	margin-left: 460px;
 	font-size: 24px;
 }
 
@@ -226,100 +223,173 @@ hr {
 
 /* End Navbar */
 
-/*Carousel*/
-.carousel {
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 60px;
-  position: relative;
+/*Score circle*/
+
+#container {
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  font-size: 30px;
+  float: left;
+  display: inline-block;
 }
 
-/* Since positioning the image, we need to help out the caption */
-.carousel-caption {
-  z-index: 10;
+#container1 {
+  	width: 90px;
+  	height: 90px;
+  	font-size: 24px;
+  	display: inline-block;
+  	margin-bottom: 40px;
 }
 
- .carousel-caption p {
-   margin-bottom: 20px;
-   font-size: 21px;
-   line-height: 1.4;
+#container2 {
+  	width: 90px;
+  	height: 90px;
+  	font-size: 24px;
+  	display: inline-block;
+  	margin-bottom: 40px;
 }
 
-/* Declare heights because of positioning of img element */
-.carousel .item {
-  height: 600px;
-  background-color: black;
+#container3 {
+  	width: 90px;
+  	height: 90px;
+  	font-size: 24px;
+  	display: inline-block;
+  	margin-bottom: 40px;
 }
-.carousel-inner > .item > img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  height: 100%;
- }
 
-@media screen and (min-width: 768px)
-.carousel-indicators {
-    bottom: 20px;
+/*End Score Circle*/
+
+/*Score breakdown*/
+.score-breakdown {
+    max-width: 30em;
+    margin: 0 auto;
 }
-/*End Carousel*/
-
-/*Amenities*/
-
-.amenities {
-	list-style: none;
-    border: 2px solid cadetblue;
-    background-color: white;
-    color: grey;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
-    text-align: center;
-    margin-bottom: 40px;
-    padding-bottom: 40px;
+.clearfix {
+    overflow: hidden;
     display: inline-block;
+    display: block;
 }
 
-
-.amenities h2 {
-	width: 85%;
+.pg-review .score-breakdown-title {
+    font-weight: bold;
 }
 
-.facilities {
-	min-width: 520px;
-	margin-bottom: 5em;
-	display: inline-block;
-    width: 100%;
-    height: 100%;
-    vertical-align: top;
+.pg-review .score-label-text, .pg-review .score-breakdown-title {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: .75em;
+}
+
+.score-breakdown-title {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.score-category {
+    margin-bottom: 1.25em;
+}
+
+.pg-review .score-label {
+    padding-bottom: .25em;
+}
+
+.score-label-text {
+    float: left;
     box-sizing: border-box;
-    margin-top: 2em;
-    margin-left: 70px;
+    -o-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-left: .25em;
 }
 
-.facilities li {
-	clear: both;
-	font-size: 18px;
-	text-align: left;
-	padding-top: 10px;
-    width: 50%;
+.pg-review .score-label-value {
+    line-height: 1;
 }
 
-.facilities ul {
-	padding-left: 1.2em;
+.score-label-value {
+    float: right;
+    box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-right: .25em;
+    font-weight: bold;
 }
 
-.facilities-category {
-	text-align: left;
+.score-meter {
+    height: 8px;
+    position: relative;
+    background: #eee;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    -webkit-box-shadow: inset 0 0 4px rgba(0,0,0,0.1);
+    -moz-box-shadow: inset 0 0 4px rgba(0,0,0,0.1);
+    box-shadow: inset 0 0 4px rgba(0,0,0,0.1);
 }
 
-.marketing .col-lg-4 {
-  margin-bottom: 20px;
+.pg-review .score-meter>span {
+    background: #b62020;
 }
 
-.marketing .col-lg-4 p {
-  margin-bottom: 10px;
+.score-meter>span {
+    display: block;
+    height: 100%;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background-color: lightblue;
+    position: relative;
+    overflow: hidden;
+}
+
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.content-body-inner {
+    box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 1em;
+    float: left;
+    padding-bottom: 60px;
+}
+
+.pg-review .aggregate-score {
+    margin-bottom: 2em;
+}
+
+.aggregate-score {
+    text-align: center;
+    position: relative;
+}
+
+/*End Score Breakdown*/
+
+/*Reviews*/
+
+.starter-template1 {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    column-gap: 20px;
+}
+
+.name {
+	float: left;
+	font-size: 20px;
+}
+
+.content-text {
+	float: left;
+	display: inline-block;
+	text-align: right;
 }
 
 /*Footer*/
@@ -329,6 +399,7 @@ hr {
 }
 
 #footer {
+	clear:both;
     margin: 0 auto;
     background-color: #ffffff;
     width: 960px;
@@ -384,6 +455,3 @@ hr {
 }
 
 /* End Footer */
-
-
-
