@@ -63,7 +63,7 @@ hr {
 	background-color: grey;
 	height: 1px;
 	border-width: 0;
-	width: 35%;
+	margin-right: 38%;
 }
 
 /*Banner and menu*/
@@ -213,7 +213,7 @@ hr {
 
 .active1 {
 	margin-right: 20px;
-	margin-left: 460px;
+	margin-left: 350px;
 	font-size: 24px;
 }
 
@@ -229,7 +229,6 @@ hr {
 /*Carousel*/
 .carousel {
   height: auto;
-  width: 70%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 60px;
@@ -271,10 +270,9 @@ hr {
 .amenities {
 	list-style: none;
     border: 2px solid cadetblue;
-    width: 70%;
     background-color: white;
     color: grey;
-    margin-left: 15%;
+    margin-left: auto;
     margin-right: auto;
     height: auto;
     text-align: center;
@@ -283,23 +281,21 @@ hr {
     display: inline-block;
 }
 
-.column {
-	padding-left: 100px;
-}
 
 .amenities h2 {
-	text-align: center;
+	width: 85%;
 }
 
 .facilities {
 	min-width: 520px;
 	margin-bottom: 5em;
 	display: inline-block;
-    width: 90%;
+    width: 100%;
     height: 100%;
     vertical-align: top;
     box-sizing: border-box;
     margin-top: 2em;
+    margin-left: 70px;
 }
 
 .facilities li {
@@ -307,7 +303,7 @@ hr {
 	font-size: 18px;
 	text-align: left;
 	padding-top: 10px;
-    width: 60%;
+    width: 50%;
 }
 
 .facilities ul {
@@ -316,7 +312,6 @@ hr {
 
 .facilities-category {
 	text-align: left;
-	padding-left: 0.8em;
 }
 
 .marketing .col-lg-4 {
@@ -324,8 +319,6 @@ hr {
 }
 
 .marketing .col-lg-4 p {
-  margin-right: 10px;
-  margin-left: 10px;
   margin-bottom: 10px;
 }
 
