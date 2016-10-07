@@ -207,6 +207,10 @@ ul {
 	color: grey;
 }
 
+.ul2 {
+	color: cadetblue;
+}
+
 hr {
 	clear: both;
 	color: cadetblue;
@@ -230,7 +234,6 @@ hr {
 	border-width: 0;
 	width: 100%;
 }
-
 
 /* Column */
 
