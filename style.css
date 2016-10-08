@@ -291,11 +291,6 @@ hr {
 	z-index: 20;
 }
 
-@media (min-width: 1025px)
-.mast-fixed.mast-down {
-    margin-top: 0;
-}
-
 .navbar-brand {
 	font-size: 24px;
 	margin-left: 20px;
@@ -310,6 +305,28 @@ hr {
 	margin-right: 20px;
 	margin-left: 390px;
 	font-size: 24px;
+}
+
+@media (max-width: 1600px) {
+	.active1 {
+		margin-left: 150px;
+	}
+}
+
+@media (max-width: 1280px) {
+	.active1 {
+		margin-left: 50px;
+	}
+}
+
+@media (max-width: 1130px) {
+	.active1 {
+		margin-left: 0px;
+	}
+}
+
+@media (max-width: 1047px) {
+
 }
 
 .buttons {
