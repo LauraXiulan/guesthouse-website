@@ -84,14 +84,14 @@ var bar2 = new ProgressBar.Circle(container2, {
   duration: 1400,
   color: 'lightblue',
   text: {
-  	value: '8'
+  	value: '8.4'
   },
   trailColor: '#eee',
   trailWidth: 1,
   svgStyle: null
 });
 
-bar2.animate(0.8);
+bar2.animate(0.84);
 
 var bar3 = new ProgressBar.Circle(container3, {
   strokeWidth: 6,

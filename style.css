@@ -284,6 +284,16 @@ hr {
 
 .navbar {
 	border-radius: 2px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+	top: 0;
+	z-index: 20;
+}
+
+@media (min-width: 1025px)
+.mast-fixed.mast-down {
+    margin-top: 0;
 }
 
 .navbar-brand {
