@@ -19,9 +19,8 @@
   <div id="body">
     <div id="outer">
       <div id="wrapper">
-        <div id="header-wrapper" style="background-image: url('./images/fruit.jpg');"><p id="website-title">Ola Onda Guesthouse</p>
-         <div id="book-now">
-
+        <div id="header-wrapper" style="background-image: url('./images/ericeira5.jpg');"><p id="website-title">Ola Onda Guesthouse</p>
+        <div id="book-now">
           <!-- The overlay -->
         <div id="myNav" class="overlay">
         <!-- Button to close the overlay navigation -->
@@ -29,38 +28,33 @@
         <!-- Overlay content -->
             <div class="overlay-content">
               <a href="reservations.html">Reservations</a>
-              
             </div>
-
         </div>
-          <!-- Use any element to open/show the overlay navigation menu -->
+
+        <!-- Use any element to open/show the overlay navigation menu -->
         <button class="overlay-button">
         <span onclick="openNav()" id="page-top">Check Availability</span></button>
-        
           <div id="language-menu">
             <div id="lang_sel">
               <ul>
                 <li>
-                  <a href="#" class="lang_sel_sel icl-en">
-                    <img class="iclflag" src="./images/english.jpg" alt="en"> &nbsp;
-                    <span class="icl_lang_sel_current">EN</span>
-                  </a>
-                  <ul>
-                    <li class="icl-pt-pt">
-                      <a href="#" class="lang_sel_sel icl-pt-pt">
-                        <img class="iclflag" src="./images/portuguese.jpg" alt="pt-pt"> &nbsp;
-                        <span class="icl_lang_sel_current">PT</span>
-                      </a>
-                      <ul>
-                        <li class="icl-zh">
-                          <a href="#" class="lang_sel_sel icl-zh">
-                            <img class="iclflag" src="./images/chinese.jpg" alt="zh"> &nbsp;
-                            <span class="icl_lang_sel_current">ZH</span>
-                          </a>
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
+                  <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn"><img class="iclflag" src="./images/english.jpg">&nbsp;
+                    <span class="icl_lang_sel_current">EN</span></button>
+                    <div id="myDropdown" class="dropdown-content">
+                      <a href="#"><img class="iclflag" src="./images/portuguese.jpg">&nbsp;
+                      <span class="icl_lang_sel_current"></span>PT</a>
+                      <a href="#"><img class="iclflag" src="./images/chinese.jpg">&nbsp;
+                      <span class="icl_lang_sel_current"></span>CH</a>
+                    </div>
+                  </div>
+                  <div class="dropdown">
+                    <button onclick="myFunction1()" class="dropbtn"><span style='color: black'>€</span>&nbsp; EUR</button>
+                    <div id="myDropdown1" class="dropdown-content">
+                      <a href="#"><span style='color: black'>$ </span>&nbsp; USD</a>
+                      <a href="#"><span style='color: black'>¥ </span>&nbsp; CNY</a>
+                    </div>
+                  </div>
                 </li>
               </ul>
             </div>
