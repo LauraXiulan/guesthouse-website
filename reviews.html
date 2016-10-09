@@ -27,7 +27,25 @@
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <!-- Overlay content -->
             <div class="overlay-content">
-              <a href="reservations.html">Reservations</a> 
+              <a href="reservations.html" id="title-overlay">Reservations</a>
+              <section><form role="form" id="contact-form" class="contact-form">
+              <div class="row2">
+                  <div class="col-md-3">
+                    <div class="form-group">
+                     <input type="date" id="arrive" class="form-control" name="arrive" placeholder="Arrive" >
+                     <label for="arrive" class="label-date"><i class="fa fa-calendar"></i>&nbsp;&nbsp;Arrive</label>
+                   </div>
+                 </div>
+
+                 <div class="col-md-3">
+                  <div class="form-group">
+                   <input type="date" id="arrive" class="form-control" name="depart" placeholder="Depart" >
+                   <label for="depart" class="label-date"><i class="fa fa-calendar"></i>&nbsp;&nbsp;Depart</label>
+                 </div>
+               </div>
+              </form></section>
+              <button class="overlay-button1">
+              <a href="reservations.html">Check Availability</a></button> 
             </div>
         </div>
 
@@ -104,14 +122,12 @@
    <!-- Start content -->
     <div class="container">
       <div class="starter-template">
-        <section>
           <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
           quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
           consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
           cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
           proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </section>
       </div>
     </div>
 
