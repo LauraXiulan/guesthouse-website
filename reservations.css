@@ -192,7 +192,7 @@ body, html {
 
 h1 {
 	text-align: center;
-	color: teal;
+	color: cadetblue;
 	font-size: 60px;
 }
 
@@ -221,7 +221,6 @@ hr {
 	background-color: cadetblue;
 	height: 5px;
 	border-width: 0;
-	width: 35%;
 }
 
 
@@ -286,6 +285,7 @@ hr {
 .carousel-indicators {
     bottom: 20px;
 }
+
 /*End Carousel*/
 
 
@@ -298,52 +298,111 @@ hr {
 
 .right { 
 	float:right;
-	width:500px;  
+	width:900px;  
 }
 
 section {
 	display: inline-block;
 	padding-bottom: 30px;
+	width: 100%;
 }
+
+/*--------------------- Reservation Form -------*/
+
+.row p {
+	padding: 40px 10px;
+	text-align: center;
+}
+
+.contact-form{ 
+	margin-top:15px;
+}
+
+.contact-form .textarea{ 
+	min-height:220px; 
+	resize:none;
+}
+
+.form-control{ 
+	box-shadow:none; 
+	border-color:grey; 
+	height:49px;
+}
+
+.form-control:focus{ 
+	box-shadow:none; 
+	border-color:cadetblue;
+}
+
+.form-control-feedback{ 
+	line-height:50px;
+}
+
+.main-btn{ 
+	background:cadetblue; 
+	border-color:cadetblue; 
+	color:#fff;
+}
+
+.main-btn:hover{ 
+	background:#00a491;
+	color:#fff;
+}
+
+.form-control-feedback {
+	line-height: 50px;
+	top: 0px;
+}
+
+#details {
+	padding-left: 15px;
+}
+
+label {
+	color: cadetblue;
+}
+
+/*---------------- End Reservation form ------- */
+
 
 
 /*Footer*/
 @media (max-width: 950px)
 #footer, #content-pages, #pre-footer, #pre-footer img, .devide img, .devide {
-    width: 100%;
+	width: 100%;
 }
 
 #footer {
-    margin: 0 auto;
-    background-color: #ffffff;
-    width: 960px;
-    height: 30px;
-    color: #646464;
-    font-size: 1.1em;
-    margin-bottom: 10px;
-    text-align: center;
+	margin: 0 auto;
+	background-color: #ffffff;
+	width: 960px;
+	height: 30px;
+	color: #646464;
+	font-size: 1.1em;
+	margin-bottom: 10px;
+	text-align: center;
 }
 
 #footer .left {
-    width: auto;
+	width: auto;
 }
 
 #footer ul {
-    list-style: none;
-    margin: 0;
-    padding: 15px 0px;
+	list-style: none;
+	margin: 0;
+	padding: 15px 0px;
 }
 
 #footer li {
-    display: inline-block;
-    padding: 0 4px;
-    width: auto;
+	display: inline-block;
+	padding: 0 4px;
+	width: auto;
 }
 
 #footer a {
-    color: #646464;
-    text-decoration: underline;
- }
+	color: #646464;
+	text-decoration: underline;
+}
 
 .icon {
 	width: 50px;
@@ -351,21 +410,21 @@ section {
 }
 
 #footer .right {
-    width: auto;
-    color: #a4a4a4;
-    font-size: 20px;
+	width: auto;
+	color: #a4a4a4;
+	font-size: 20px;
 }
 
 #footer ul {
-    list-style: none;
-    margin: 0;
-    padding: 15px 0px;
+	list-style: none;
+	margin: 0;
+	padding: 15px 0px;
 }
 
 #footer li {
-    display: inline-block;
-    padding: 0 4px;
-    width: auto;
+	display: inline-block;
+	padding: 0 4px;
+	width: auto;
 }
 
 /* End Footer */
