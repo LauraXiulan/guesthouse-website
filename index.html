@@ -200,18 +200,92 @@
                     <p id="button"><a class="btn btn-default" href="location.html">&nbsp; More info &nbsp;</a>
                       <!-- Add Google Maps -->
                       <script class="maps" src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:440px;width:700px;'><div id='gmap_canvas' style='height:440px;width:700px;'></div><div><small><a href="http://www.embedgooglemaps.com/en/">Generate your map here, quick and easy!                  Give your customers directions                  Get found</a></small></div><div><small><a href="https://top10geeks.com/top-10-best-bluetooth-speakers-2016/">Top 10 Bluetooth speakers of 2016</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(38.96907953938784,-9.415070519604464),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(38.96907953938784,-9.415070519604464)});infowindow = new google.maps.InfoWindow({content:'<strong>Ola Onda</strong><br>Rua Mato da Cruz, Ericeira<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script> <br><br>
-                     
+
                       <!-- End Google Maps -->
-
-
 
 
                     </section>
 
-                    <div class="back-top"><a href="#page-top">Back to Top</a></div><br>
+                    <h2>Reviews</h2>
+                    <hr class="line2">
+
+                    <section class="section">
+                      <p id="button"><a class="btn btn-default" href="reviews.html">&nbsp; View all &nbsp;</a>
+                        <section id="hr-width">
+
+                         <!-- Review Circle -->
+
+                         <div id="container"></div>
+                         <div class="content-body-inner clearfix">
+                          <div class="score-breakdown-col1">
+                            <div class="score-category cleanliness">
+                              <div class="score-label clearfix">
+                                <div class="score-label-text ng-binding">Cleanliness</div>
+                                <div class="score-label-value ng-binding">9.2</div>
+                              </div>
+                              <div class="score-meter">
+                                <span style="width: 92%"></span>
+                              </div>
+                            </div>
+                            <div class="score-category comfort">
+                              <div class="score-label clearfix">
+                                <div class="score-label-text ng-binding">Comfort</div>
+                                <div class="score-label-value ng-binding">9</div>
+                              </div>
+                              <div class="score-meter">
+                                <span style="width: 90%"></span>
+                              </div>
+                            </div>
+                            <div class="score-category location">
+                              <div class="score-label clearfix">
+                                <div class="score-label-text ng-binding">Location</div>
+                                <div class="score-label-value ng-binding">9.7</div>
+                              </div>
+                              <div class="score-meter">
+                                <span style="width: 97%"></span>
+                              </div>
+                            </div>
+                            <div class="score-breakdown-col2">
+                              <div class="score-category facilities">
+                                <div class="score-label clearfix">
+                                  <div class="score-label-text ng-binding">Facilities</div>
+                                  <div class="score-label-value ng-binding">8.8</div>
+                                </div>
+                                <div class="score-meter">
+                                  <span style="width: 88%"></span>
+                                </div>
+                              </div>
+                              <div class="score-category staff">
+                                <div class="score-label clearfix">
+                                  <div class="score-label-text ng-binding">Staff</div>
+                                  <div class="score-label-value ng-binding">9.6</div>
+                                </div>
+                                <div class="score-meter">
+                                  <span style="width: 96%"></span>
+                                </div>
+                              </div>
+                              <div class="score-category value">
+                                <div class="score-label clearfix">
+                                  <div class="score-label-text ng-binding">Value</div>
+                                  <div class="score-label-value ng-binding">9.5</div>
+                                </div>
+                                <div class="score-meter">
+                                  <span style="width: 95%"></span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  <hr class="line2">
+                  </section>
 
 
-                    <!--Footer-->
+                  <div class="back-top"><a href="#page-top">Back to Top</a></div><br>
+
+
+                  <!--Footer-->
     <!-- Wavy Line <div id="pre-footer">
     <img alt="Ericeira Guest House" src="http://www.ericeiraguesthouse.com/wp-content/themes/egh/img/wave-02.svg">
   </div> -->
@@ -232,6 +306,7 @@
 
 <script src="./jquery/jquery.min.js"></script>
 <script src="./bootstrap/js/bootstrap.min.js"></script>
+<script src="./bootstrap/js/progressbar.js"></script>
 <script src="./bootstrap/js/scrolling-nav.js"></script>
 <script src="index.js"></script>
 </body>
