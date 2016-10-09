@@ -21,6 +21,17 @@ body, html {
 }
 
 /*Banner and menu*/
+
+#website-title {
+	font-size: 60px;
+	font-weight: bold;
+	float: left;
+	margin-left: 40px;
+	margin-top: 40px;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
 #menu-opener {
 	display: none;
 	position: absolute;
@@ -69,26 +80,50 @@ body, html {
 	text-align: center;
 }
 
-#menu ul, #language-menu ul {
-	float: left;
+/* Dropdown Button */
+.dropbtn {
+    background-color: cadetblue;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
 }
 
-#menu ul li, #language-menu ul li {
-	float: left;
-	padding: 8px 0px;
-	font-size: 14px;
-	font-weight: 600;
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: lightblue;
 }
 
-#menu ul li a, #language-menu ul li a {
-	color: #fff;
-	text-align: center;
-	padding: 7px 5px;
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
 }
 
-#menu ul li a span, #language-menu ul li a span {
-	color: #969696;
-	padding-right: 5px;
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 77px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 8px 8px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+	display:block;
 }
 
 #language-menu {
@@ -97,12 +132,9 @@ body, html {
 	right: 20px;
 }
 
-#language-menu #lang_sel {
+#lang_sel {
 	margin-right: 15px;
 	margin-top: 15px;
-}
-
-#lang_sel {
 	height: 32px;
 	position: relative;
 	z-index: 99;
@@ -112,7 +144,6 @@ body, html {
 }
 
 #lang_sel li {
-	width: 74px;
 	float: left;
 	width: 149px;
 	position: relative;
@@ -122,22 +153,6 @@ body, html {
 	padding: 0 !important;
 	margin: 0 !important;
 	list-style-type: none !important;
-}
-
-#lang_sel a.lang_sel_sel {
-	background: url(../img/nav-arrow-down.png) #fff right no-repeat;
-	color: #444;
-}
-
-#lang_sel a, #lang_sel a:visited {
-	display: block;
-	font-size: 11px;
-	text-decoration: none !important;
-	color: #444444;
-	border: 1px solid #cdcdcd;
-	background: #fff;
-	padding-left: 10px;
-	line-height: 24px;
 }
 
 #lang_sel img.iclflag {
@@ -153,6 +168,11 @@ body, html {
 
 .navbar {
 	border-radius: 2px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+	top: 0;
+	z-index: 20;
 }
 
 .navbar-brand {
@@ -167,13 +187,13 @@ body, html {
 
 .active1 {
 	margin-right: 20px;
-	margin-left: 460px;
+	margin-left: 390px;
 	font-size: 24px;
 }
 
 .buttons {
-	margin-right: 20px;
-	margin-left: 0px;
+	margin-right: auto;
+	margin-left: auto;
 	font-size: 24px;
 	text-align: center;
 }
@@ -202,11 +222,6 @@ h2{
 }
 
 p {
-	text-align: left;
-	color: grey;
-}
-
-ul {
 	text-align: left;
 	color: grey;
 }
@@ -291,12 +306,12 @@ hr {
 
 /* Column */
 
-.left { 
+.left1 { 
 	float:left; 
 	width:200px; 
 }
 
-.right { 
+.right1 { 
 	float:right;
 	width:900px;  
 }
@@ -318,6 +333,7 @@ section {
 	margin-top:15px;
 }
 
+<<<<<<< HEAD
 .contact-form .textarea{ 
 	min-height:220px; 
 	resize:none;
@@ -364,7 +380,15 @@ label {
 
 /*---------------- End Reservation form ------- */
 
+=======
+>>>>>>> cc27d93ad670ee56f043e42d25a20dc82f315f9a
+/*End Column*/
 
+.back-top {
+	font-size: 24px;
+	color: grey;
+	float: right;
+}
 
 /*Footer*/
 @media (max-width: 950px)
@@ -380,7 +404,8 @@ label {
 	color: #646464;
 	font-size: 1.1em;
 	margin-bottom: 10px;
-	text-align: center;
+	text-align: center !important;
+	margin-top: 40px;
 }
 
 #footer .left {
@@ -413,18 +438,6 @@ label {
 	width: auto;
 	color: #a4a4a4;
 	font-size: 20px;
-}
-
-#footer ul {
-	list-style: none;
-	margin: 0;
-	padding: 15px 0px;
-}
-
-#footer li {
-	display: inline-block;
-	padding: 0 4px;
-	width: auto;
 }
 
 /* End Footer */
