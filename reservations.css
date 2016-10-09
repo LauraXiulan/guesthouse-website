@@ -333,6 +333,7 @@ section {
 	margin-top:15px;
 }
 
+<<<<<<< HEAD
 .contact-form .textarea{ 
 	min-height:220px; 
 	resize:none;
@@ -379,6 +380,8 @@ label {
 
 /*---------------- End Reservation form ------- */
 
+=======
+>>>>>>> cc27d93ad670ee56f043e42d25a20dc82f315f9a
 /*End Column*/
 
 .back-top {
