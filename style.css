@@ -75,9 +75,17 @@ hr {
 }
 
 .section {
-	display: inline-block;
+	display: block;
 	padding-bottom-top: 30px;
 	padding-top: 30px;
+}
+
+#button {
+	text-align: center;
+}
+
+.column {
+	text-align: center;
 }
 
 /*Banner and menu*/
@@ -397,6 +405,17 @@ hr {
     bottom: 20px;
 }
 /*End Carousel*/
+
+/*Maps*/
+
+.maps {
+	float: center;
+}
+
+.content {
+	float: center;
+	padding-right: 150px;
+}
 
 /*Footer*/
 @media (max-width: 950px)

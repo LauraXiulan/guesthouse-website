@@ -10,7 +10,7 @@
   <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="style.css" rel="stylesheet">
 </head>
-  <body>
+<body>
 
   <!--Banner + menu + taalinstelling-->
   <a id="menu-opener">
@@ -20,163 +20,198 @@
     <div id="outer">
       <div id="wrapper">
         <div id="header-wrapper" style="background-image: url('./images/ericeira6.jpg');"><p id="website-title">Ola Onda Guesthouse</p>
-        <div id="book-now">
-          <!-- The overlay -->
-        <div id="myNav" class="overlay">
-        <!-- Button to close the overlay navigation -->
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <!-- Overlay content -->
-            <div class="overlay-content">
-              <a href="reservations.html">Reservations</a>
+          <div id="book-now">
+            <!-- The overlay -->
+            <div id="myNav" class="overlay">
+              <!-- Button to close the overlay navigation -->
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <!-- Overlay content -->
+              <div class="overlay-content">
+                <a href="reservations.html">Reservations</a>
+              </div>
             </div>
-        </div>
 
-        <!-- Use any element to open/show the overlay navigation menu -->
-        <button class="overlay-button">
-        <span onclick="openNav()" id="page-top">Check Availability</span></button>
-          <div id="language-menu">
-            <div id="lang_sel">
-              <ul>
-                <li>
-                  <div class="dropdown">
-                    <button onclick="myFunction()" class="dropbtn"><img class="iclflag" src="./images/english.jpg">&nbsp;
-                    <span class="icl_lang_sel_current">EN</span></button>
-                    <div id="myDropdown" class="dropdown-content">
-                      <a href="#"><img class="iclflag" src="./images/portuguese.jpg">&nbsp;
-                      <span class="icl_lang_sel_current"></span>PT</a>
-                      <a href="#"><img class="iclflag" src="./images/chinese.jpg">&nbsp;
-                      <span class="icl_lang_sel_current"></span>CH</a>
+            <!-- Use any element to open/show the overlay navigation menu -->
+            <button class="overlay-button">
+              <span onclick="openNav()" id="page-top">Check Availability</span></button>
+              <div id="language-menu">
+                <div id="lang_sel">
+                  <ul>
+                    <li>
+                      <div class="dropdown">
+                        <button onclick="myFunction()" class="dropbtn"><img class="iclflag" src="./images/english.jpg">&nbsp;
+                          <span class="icl_lang_sel_current">EN</span></button>
+                          <div id="myDropdown" class="dropdown-content">
+                            <a href="#"><img class="iclflag" src="./images/portuguese.jpg">&nbsp;
+                              <span class="icl_lang_sel_current"></span>PT</a>
+                              <a href="#"><img class="iclflag" src="./images/chinese.jpg">&nbsp;
+                                <span class="icl_lang_sel_current"></span>CH</a>
+                              </div>
+                            </div>
+                            <div class="dropdown">
+                              <button onclick="myFunction1()" class="dropbtn"><span style='color: black'>€</span>&nbsp; EUR</button>
+                              <div id="myDropdown1" class="dropdown-content">
+                                <a href="#"><span style='color: black'>$ </span>&nbsp; USD</a>
+                                <a href="#"><span style='color: black'>¥ </span>&nbsp; CNY</a>
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
-                  <div class="dropdown">
-                    <button onclick="myFunction1()" class="dropbtn"><span style='color: black'>€</span>&nbsp; EUR</button>
-                    <div id="myDropdown1" class="dropdown-content">
-                      <a href="#"><span style='color: black'>$ </span>&nbsp; USD</a>
-                      <a href="#"><span style='color: black'>¥ </span>&nbsp; CNY</a>
+                </div>
+              </div>
+            </div>  
+            <!--End Banner-->
+
+            <!--Navbar-->      
+            <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="400">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <div class="navbar-brand">Ola Onda</div>
+              </div>
+              <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-middle">
+                  <li class="hidden"><a class="page-scroll" href="#page-top"></a></li>
+                  <li class="active1"><a href="index.html">Home</a></li>
+                  <li><a class="buttons" href="guesthouse.html">Guesthouse</a></li>
+                  <li><a class="buttons" href="location.html">Location</a></li>
+                  <li><a class="buttons" href="reviews.html">Reviews</a></li>
+                  <li><a class="buttons" href="reservations.html">Reservations</a></li>
+                  <li><a class="buttons" href="contact.html">Contact</a></li>
+                </ul>
+              </div>
+            </nav>
+            <!--End Navbar-->
+
+            <div class="container">
+              <section class="section">
+                <div class="starter-template">
+                  <h1>Welcome</h1>
+                  <hr>
+                </div>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                </section>
+
+                <h2>Guesthouse</h2>
+                <hr class="line2">
+
+                <section class="section">
+
+                  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                      <li data-target="#myCarousel" data-slide-to="1"></li>
+                      <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                      <div class="item active">
+                        <img class="first-slide" src="./images/testguesthouse.jpg" alt="First slide">
+                        <div class="container">
+                        </div>
+                      </div>
+                      <div class="item">
+                        <img class="second-slide" src="./images/testinterior.jpg" alt="Second slide">
+                        <div class="container">
+                        </div>
+                      </div>
+                      <div class="item">
+                        <img class="third-slide" src="./images/testvillage.jpg" alt="Third slide">
+                        <div class="container">
+                        </div>
+                      </div>
                     </div>
+                    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
                   </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>  
-  <!--End Banner-->
 
-  <!--Navbar-->      
-  <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="400">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <div class="navbar-brand">Ola Onda</div>
-    </div>
-    <div id="navbar" class="collapse navbar-collapse">
-      <ul class="nav navbar-nav navbar-middle">
-        <li class="hidden"><a class="page-scroll" href="#page-top"></a></li>
-        <li class="active1"><a href="index.html">Home</a></li>
-        <li><a class="buttons" href="guesthouse.html">Guesthouse</a></li>
-        <li><a class="buttons" href="location.html">Location</a></li>
-        <li><a class="buttons" href="reviews.html">Reviews</a></li>
-        <li><a class="buttons" href="reservations.html">Reservations</a></li>
-        <li><a class="buttons" href="contact.html">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
-  <!--End Navbar-->
+                </section>
 
-    <div class="container">
-<section class="section">
-      <div class="starter-template">
-        <h1>Welcome</h1>
-        <hr>
-      </div>
-      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <h2>Amenities</h2>
+                <hr class="line2">
 
-</section>
+                <section class="section">
 
-<hr class="line2">
+                 <p id="button"><a class="btn btn-default" href="guesthouse.html">&nbsp; View all &nbsp;</a>
 
-<section class="section">
+                  <br><br>
+                  <div class="column">
+                    <div class="col-lg-3">
+                      <h3 class="facilities-category"><span class="glyphicon glyphicon-globe"></span>&nbsp;Free Wifi<br></h3>
+                    </div>
+                    <div class="col-lg-3">
+                      <h3 class="facilities-category"><span class="glyphicon glyphicon-piggy-bank"></span>&nbsp;Pets allowed<br></h3>
+                    </div>
+                    <div class="col-lg-3">
+                      <h3 class="facilities-category"><span class="glyphicon glyphicon-log-in"></span>&nbsp;Parking space</h3>
+                    </div>
+                    <div class="col-lg-3">
+                      <h3 class="facilities-category"><span class="glyphicon glyphicon-road"></span>&nbsp;Bicycle rental</h3>
+                    </div>
 
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner" role="listbox">
-        <div class="item active">
-          <img class="first-slide" src="./images/testguesthouse.jpg" alt="First slide">
-            <div class="container">
-            </div>
-        </div>
-        <div class="item">
-          <img class="second-slide" src="./images/testinterior.jpg" alt="Second slide">
-            <div class="container">
-            </div>
-        </div>
-        <div class="item">
-          <img class="third-slide" src="./images/testvillage.jpg" alt="Third slide">
-            <div class="container">
-            </div>
-        </div>
-      </div>
-      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
+                  </section>
 
-    </section>
+                  <h2>Location</h2>
+                  <hr class="line2">
 
-    <hr class="line2">
+                  <section class="section">
 
-    <section>
-
-    </section>
-
-      <div class="back-top"><a href="#page-top">Back to Top</a></div><br>
+                    <p id="button"><a class="btn btn-default" href="location.html">&nbsp; More info &nbsp;</a>
+                      <!-- Add Google Maps -->
+                      <script class="maps" src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:440px;width:700px;'><div id='gmap_canvas' style='height:440px;width:700px;'></div><div><small><a href="http://www.embedgooglemaps.com/en/">Generate your map here, quick and easy!                  Give your customers directions                  Get found</a></small></div><div><small><a href="https://top10geeks.com/top-10-best-bluetooth-speakers-2016/">Top 10 Bluetooth speakers of 2016</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(38.96907953938784,-9.415070519604464),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(38.96907953938784,-9.415070519604464)});infowindow = new google.maps.InfoWindow({content:'<strong>Ola Onda</strong><br>Rua Mato da Cruz, Ericeira<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script> <br><br>
+                     
+                      <!-- End Google Maps -->
 
 
-  <!--Footer-->
+
+
+                    </section>
+
+                    <div class="back-top"><a href="#page-top">Back to Top</a></div><br>
+
+
+                    <!--Footer-->
     <!-- Wavy Line <div id="pre-footer">
     <img alt="Ericeira Guest House" src="http://www.ericeiraguesthouse.com/wp-content/themes/egh/img/wave-02.svg">
   </div> -->
