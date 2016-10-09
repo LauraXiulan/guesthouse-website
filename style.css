@@ -53,7 +53,6 @@ hr {
 	background-color: cadetblue;
 	height: 5px;
 	border-width: 0;
-	width: 35%;
 }
 
 .hr-standard {
@@ -238,10 +237,18 @@ hr {
 .overlay a {
     padding: 8px;
     text-decoration: none;
-    font-size: 36px;
+    font-size: 24px;
     color: white;
     display: block; /* Display block instead of inline */
     transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+#title-overlay {
+	font-size: 36px;
+	color: white;
+	display: block;
+	padding: 8px;
+	transition: 0.3s;
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -276,6 +283,35 @@ hr {
 	float: right;
 	margin-top: 17%;
 	margin-right: 25px;
+}
+
+/*Reservation*/
+
+.contact-form{ 
+	margin-top:15px;
+}
+
+.form-control{ 
+	box-shadow:none; 
+	border-color:grey; 
+	height:49px;
+}
+
+label {
+	color: white;
+}
+
+.row2 {
+	display: inline-block;
+	width: 100%;
+	margin-left: 25%;
+}
+
+.overlay-button1 {
+	cursor: pointer;
+	color: white;
+	border-radius: 12px;
+	background-color: teal;
 }
 
 /* End Overlay */
@@ -321,12 +357,8 @@ hr {
 
 @media (max-width: 1130px) {
 	.active1 {
-		margin-left: 0px;
+		margin: 0px;
 	}
-}
-
-@media (max-width: 1047px) {
-
 }
 
 .buttons {

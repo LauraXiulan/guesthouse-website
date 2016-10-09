@@ -191,10 +191,18 @@ body, html {
 .overlay a {
     padding: 8px;
     text-decoration: none;
-    font-size: 36px;
+    font-size: 24px;
     color: white;
     display: block; /* Display block instead of inline */
     transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+#title-overlay {
+	font-size: 36px;
+	color: white;
+	display: block;
+	padding: 8px;
+	transition: 0.3s;
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -231,6 +239,35 @@ body, html {
 	margin-right: 25px;
 }
 
+/*Reservation*/
+
+.contact-form{ 
+	margin-top:15px;
+}
+
+.form-control{ 
+	box-shadow:none; 
+	border-color:grey; 
+	height:49px;
+}
+
+label {
+	color: white;
+}
+
+.row2 {
+	display: inline-block;
+	width: 100%;
+	margin-left: 25%;
+}
+
+.overlay-button1 {
+	cursor: pointer;
+	color: white;
+	border-radius: 12px;
+	background-color: teal;
+}
+
 /* End Overlay */
 
 /*Navbar*/
@@ -258,6 +295,24 @@ body, html {
 	margin-right: 20px;
 	margin-left: 390px;
 	font-size: 24px;
+}
+
+@media (max-width: 1600px) {
+	.active1 {
+		margin-left: 150px;
+	}
+}
+
+@media (max-width: 1280px) {
+	.active1 {
+		margin-left: 50px;
+	}
+}
+
+@media (max-width: 1130px) {
+	.active1 {
+		margin: 0px;
+	}
 }
 
 .buttons {

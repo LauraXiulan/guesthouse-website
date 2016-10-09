@@ -191,6 +191,24 @@ body, html {
 	font-size: 24px;
 }
 
+@media (max-width: 1600px) {
+	.active1 {
+		margin-left: 150px;
+	}
+}
+
+@media (max-width: 1280px) {
+	.active1 {
+		margin-left: 50px;
+	}
+}
+
+@media (max-width: 1130px) {
+	.active1 {
+		margin: 0px;
+	}
+}
+
 .buttons {
 	margin-right: auto;
 	margin-left: auto;
@@ -333,7 +351,6 @@ section {
 	margin-top:15px;
 }
 
-<<<<<<< HEAD
 .contact-form .textarea{ 
 	min-height:220px; 
 	resize:none;
@@ -380,8 +397,6 @@ label {
 
 /*---------------- End Reservation form ------- */
 
-=======
->>>>>>> cc27d93ad670ee56f043e42d25a20dc82f315f9a
 /*End Column*/
 
 .back-top {
