@@ -62,7 +62,9 @@ hr {
 	background-color: grey;
 	height: 1px;
 	border-width: 0;
-	margin-right: 38%;
+	width: 35%;
+	margin-left: 30%;
+	margin-right: auto;
 }
 
 /*Banner and menu*/
@@ -426,7 +428,7 @@ label {
 
 
 .amenities h2 {
-	width: 85%;
+	margin-left: -70px;
 }
 
 .facilities {
