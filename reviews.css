@@ -342,7 +342,7 @@ label {
 .active1 {
 	margin-right: 20px;
     margin-left: 390px;
-	font-size: 24px;
+    font-size: 24px;
 }
 
 @media (max-width: 1600px) {
@@ -391,30 +391,30 @@ label {
 }
 
 #container1 {
-  	width: 90px;
-  	height: 90px;
-  	font-size: 24px;
-  	display: inline-block;
-  	margin-left: 30%;
-  	margin-bottom: 40px;
+ width: 90px;
+ height: 90px;
+ font-size: 24px;
+ display: inline-block;
+ margin-left: 30%;
+ margin-bottom: 40px;
 }
 
 #container2 {
-  	width: 90px;
-  	height: 90px;
-  	font-size: 24px;
-  	display: inline-block;
-  	margin-left: 30%;
-  	margin-bottom: 40px;
+ width: 90px;
+ height: 90px;
+ font-size: 24px;
+ display: inline-block;
+ margin-left: 30%;
+ margin-bottom: 40px;
 }
 
 #container3 {
-  	width: 90px;
-  	height: 90px;
-  	font-size: 24px;
-  	display: inline-block;
-  	margin-left: 24%;
-  	margin-bottom: 40px;
+ width: 90px;
+ height: 90px;
+ font-size: 24px;
+ display: inline-block;
+ margin-left: 24%;
+ margin-bottom: 40px;
 }
 
 /*End Score Circle*/
@@ -599,7 +599,7 @@ label {
 #footer a {
     color: #646464;
     text-decoration: underline;
- }
+}
 
 .icon {
 	width: 50px;

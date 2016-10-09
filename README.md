@@ -1,2 +1,2 @@
 # guesthouse-website
-Business website for guesthouse
+Here we built a website for a future guesthouse in Ericeira, Portugal.
