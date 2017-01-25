@@ -5,4 +5,4 @@ app.use( express.static('static') )
 
 app.listen(3000, () =>{
 	console.log('Express listening')
-})
+} )
